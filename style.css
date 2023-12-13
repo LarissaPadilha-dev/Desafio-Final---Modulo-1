@@ -229,7 +229,7 @@ form{
   height: 8vh;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   header {
     padding: 2vw;
   }
