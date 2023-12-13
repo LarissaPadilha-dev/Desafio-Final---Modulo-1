@@ -229,4 +229,93 @@ form{
   height: 8vh;
 }
 
-@media {}
+@media screen and (max-width: 500px) {
+  header {
+    padding: 2vw;
+  }
+
+  .selfcare {
+    width: 15vw;
+    margin-right: 60vw;
+  }
+
+  .icones {
+    width: 20vw;
+    margin-right: 5vw;
+  }
+
+  .icones a {
+    width: auto;
+  }
+
+  .texto {
+    flex-direction: column;
+    height: auto;
+    padding: 2vw;
+  }
+
+  .principal {
+    min-height: auto;
+  }
+
+  .boxprodutos {
+    width: 100%;
+  }
+
+  .produtos {
+    width: 48vw;
+    margin-bottom: 5vw;
+  }
+  
+  .imgprod {
+    height: auto;
+  }
+
+  h4, p {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 40vw;
+  }
+
+  .navcontato {
+    width: 100%;
+    right: 0;
+  }
+
+  .divcontato {
+    width: 100%;
+    height: auto;
+    padding: 2vw;
+  }
+
+  h2 {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .submit {
+    width: 100%;
+    right: 0;
+  }
+
+  .secondcontato {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .redes, .cartoes {
+    width: 100%;
+    margin-bottom: 2vw;
+  }
+}
+
